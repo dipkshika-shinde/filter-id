@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color:  beige;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+
+.card{
+    height: 320px;
+    width:290px ;
+    background-color:white;
+    margin: .2vw;
+    /* text-align: center; */
+    /* display: flex; */
+    /* align-items: center; */
+
+}
+.image{
+    height: 45%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    height: 55%;
+    width: 100%;
+    /* background-color: burlywood; */
+    padding-left: 3vw; 
+    padding-top: .4vw; 
+}
+
+.text p{
+    margin: 1.1vw 0;
+
+}
